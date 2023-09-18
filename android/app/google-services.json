@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "188810820391",
+    "project_id": "chatexample-4b75c",
+    "storage_bucket": "chatexample-4b75c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188810820391:android:f6c9f4d805ed87bd0ac702",
+        "android_client_info": {
+          "package_name": "com.chatexample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACBt6chrkWmGKA2bXYhJ8AYT9_gULsOjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
