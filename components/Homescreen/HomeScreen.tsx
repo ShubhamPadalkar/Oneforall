@@ -7,6 +7,18 @@ const HomeScreen = ({navigation}) => {
       <TouchableOpacity style={styles.btnstyle} onPress={()=>navigation.navigate('Login')}>
         <Text style={styles.btntext}>Chat App</Text>
       </TouchableOpacity>
+      <TouchableOpacity style={styles.btnstyle} onPress={()=>navigation.navigate('Hardware')}>
+        <Text style={styles.btntext}>Hardware</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.btnstyle} onPress={()=>navigation.navigate('Socket')}>
+        <Text style={styles.btntext}>Socket App</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.btnstyle} onPress={()=>navigation.navigate('InterDash')}>
+        <Text style={styles.btntext}>Localization</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.btnstyle} onPress={()=>navigation.navigate('CartDash')}>
+        <Text style={styles.btntext}>Cart App</Text>
+      </TouchableOpacity>
     </ScrollView>
   )
 }
@@ -21,7 +33,8 @@ const styles = StyleSheet.create({
         alignSelf:'center',
         justifyContent:'center',
         alignItems:'center',
-        marginVertical:15
+        marginVertical:15,
+        borderWidth:2
     },
     btntext:{
         color:'black',
